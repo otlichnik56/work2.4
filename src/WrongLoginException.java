@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class WrongLoginException {
+public class WrongLoginException extends Exception {
+    public WrongLoginException(String messege){
+        super(messege);
+    }
 }
